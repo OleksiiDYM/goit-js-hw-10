@@ -66,7 +66,7 @@ const createInfoMarkup = data => {
       }" width="40" height="40">${name.official}</h1>
       <p>Capital: ${capital}</p>
       <p>Population: ${population}</p>
-      <p>Languages: ${Object.values(languages)}</p>`
+      <p>Languages: ${Object.values(languages).join(', ')}</p>`
   );
 };
 
